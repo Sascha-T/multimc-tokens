@@ -1,0 +1,16 @@
+{
+  "name": "multimc-tokens",
+  "version": "1.0.1",
+  "main": "index.js",
+  "author": "Sascha_T <info@sascha-t.de>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^13.7.6",
+    "minecraft-protocol": "^1.11.0"
+  },
+  "homepage": "https://github.com/Sascha-T/multimc-tokens",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "types": "index.d.ts"
+}
