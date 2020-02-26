@@ -1,6 +1,6 @@
 {
   "name": "multimc-tokens",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "index.js",
   "author": "Sascha_T <info@sascha-t.de>",
   "license": "MIT",
@@ -12,5 +12,6 @@
   "scripts": {
     "prepublish": "tsc"
   },
-  "types": "index.d.ts"
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
 }
